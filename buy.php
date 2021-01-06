@@ -60,7 +60,7 @@ echo $login;
 //html; it's now parsing PHP
 
 $success = True; //keep track of errors so it redirects the page only if there are no errors
-$db_conn = OCILogon("ora_z4m0b", "a26370149", "dbhost.ugrad.cs.ubc.ca:1522/ug");
+$db_conn = OCILogon("orcl", "orcl", "dbhost.ugrad.cs.ubc.ca:1522/ug");
 
 
 
